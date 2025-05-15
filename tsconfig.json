@@ -39,7 +39,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "app/(site)/dashboard/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]
