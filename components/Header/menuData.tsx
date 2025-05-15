@@ -9,12 +9,18 @@ const menuData: Menu[] = [
 	},
 	{
 		id: 2,
-		title: "Dashboard",
+		title: "Performance Dashboard",
 		newTab: false,
 		path: "#",
 	},
 	{
 		id: 2.1,
+		title: "Tracking Tracker",
+		newTab: false,
+		path: "#",
+	},
+	{
+		id: 2.2,
 		title: "Clients",
 		newTab: false,
 		path: "#",

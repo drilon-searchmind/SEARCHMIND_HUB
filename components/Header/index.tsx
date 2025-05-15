@@ -36,14 +36,15 @@ const Header = () => {
 		>
 			<div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
 				<div className="flex w-full items-center justify-between xl:w-1/4">
-					<a href="/">
+					<a href="/" className="flex items-center gap-3">
 						<Image
 							src="/images/searchmind/662bb267ab2bf43bace3bdc7_searchmind-logo.svg"
 							alt="logo"
 							width={20}
 							height={30}
-							className="w-full max-w-[50px] object-contain"
+							className="w-full max-w-[50px] object-contain dark:brightness-[100] dark:filter"
 						/>
+						| Searchmind Hub
 					</a>
 
 					{/* <!-- Hamburger Toggle BTN --> */}
@@ -141,7 +142,7 @@ const Header = () => {
 						<ThemeToggler />
 
 						<Link
-							href="https://nextjstemplates.com/templates/solid"
+							href="/auth/signin"
 							className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
 						>
 							Login

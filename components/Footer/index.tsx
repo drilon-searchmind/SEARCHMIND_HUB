@@ -34,7 +34,7 @@ const Footer = () => {
 										height={80}
 										src="/images/searchmind/662bb267ab2bf43bace3bdc7_searchmind-logo.svg"
 										alt="Logo"
-										className="w-full max-w-[50px] object-contain"
+										className="w-full max-w-[50px] object-contain dark:brightness-[100] dark:filter"
 									/>
 								</a>
 							</motion.div>
